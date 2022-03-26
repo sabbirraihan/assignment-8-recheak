@@ -1,0 +1,27 @@
+.shop-container{
+   display: grid;
+   grid-template-columns: 4fr 1fr;
+
+}
+.phone-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 15px;
+    
+}
+.cart-container{
+    align-items: center;
+    background-color: gray;
+    border-radius: 10px;
+    padding-left: 25px;
+}
+@media (max-width :641px){
+    .phone-container{
+    width: 80%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+    }
+    }
