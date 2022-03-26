@@ -10,7 +10,7 @@ function App() {
       <Shop></Shop>
       <h1>
 
-        Q.1.How to react work ? <br />
+        Q.1.How to react work ??? <br />
         <br />
         Ans : React goes through its virtual DOM, creates a list of those changes that need to be made to the actual DOM and then does it all in one single process. < br />
 
