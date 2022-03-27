@@ -18,7 +18,7 @@ const Cart = ({ cart, reset, }) => {
             <div className=''>
                 <button className='btn-cart' >CHOOSE 1 FOR ME
 
-                </button>
+                </button> <br />
                 <button onClick={() => reset()} className='btn-cart2'>CHOOSE AGAIN</button>
             </div>
 
